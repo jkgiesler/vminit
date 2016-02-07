@@ -6,7 +6,7 @@ apt-get update
 apt-get upgrade -y
 
 apt-get install -y r-base
-apt-get install build-essential cmake python-dev
+apt-get install -y build-essential cmake python-dev
 
 Rscript install.R
 
