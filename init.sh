@@ -1,11 +1,11 @@
 echo "deb http://cran.rstudio.com/bin/linux/ubuntu trusty/" >> /etc/apt/sources.list
-
+sudo apt-key adv -y --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
 add-apt-repository -y ppa:marutter/rdev
 
 apt-get update
 apt-get upgrade -y
 
-apt-get install -t --force-yes r-base
+apt-get install -y r-base
 
 Rscript install.R
 
