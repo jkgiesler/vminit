@@ -1,5 +1,5 @@
 echo "deb http://cran.rstudio.com/bin/linux/ubuntu trusty/" >> /etc/apt/sources.list
-sudo apt-key adv -y --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
 add-apt-repository -y ppa:marutter/rdev
 
 apt-get update
