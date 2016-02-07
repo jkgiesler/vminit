@@ -6,8 +6,20 @@ apt-get update
 apt-get upgrade -y
 
 apt-get install -y r-base
+apt-get install build-essential cmake python-dev
 
 Rscript install.R
 
+cp vimrc ~/.vimrc
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone https://github.com/sickill/vim-monokai
+
+cp -R vim-monokai/colors ~/.vim
+#:PluginInstall
+# cd ~/.vim/bundle/YouCompleteMe
+#./install.py --clang-completer
+
+
 wget https://3230d63b5fc54e62148e-c95ac804525aac4b6dba79b00b39d1d3.ssl.cf1.rackcdn.com/Anaconda2-2.5.0-Linux-x86_64.sh
 bash Anaconda2-2.5.0-Linux-x86_64.sh
+
