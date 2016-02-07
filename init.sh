@@ -11,7 +11,7 @@ apt-get install -y vim build-essential cmake python-dev
 Rscript install.R
 
 
-#setup vivm
+#setup vim
 cp vimrc ~/.vimrc
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 git clone https://github.com/sickill/vim-monokai
@@ -25,3 +25,4 @@ bash Anaconda2-2.5.0-Linux-x86_64.sh
 #:PluginInstall
 # cd ~/.vim/bundle/YouCompleteMe
 #~/anaconda2/bin/python install.py --clang-completer
+#export PYTHONPATH=/home/jgiesler/anaconda2/lib/python2.7/site-packages/
