@@ -1,0 +1,5 @@
+install.packages("doParallel",repos="http://cran.rstudio.com/")
+install.packages("TTR",repos="http://cran.rstudio.com/")
+install.packages("dtwclust",repos="http://cran.rstudio.com/")
+install.packages("quantmod",repos="http://cran.rstudio.com/")
+install.packages("pvclust",repos="http://cran.rstudio.com/")
