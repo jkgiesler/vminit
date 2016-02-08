@@ -6,7 +6,7 @@ apt-get update
 apt-get upgrade -y
 
 apt-get install -y r-base
-apt-get install -y vim build-essential cmake python-dev
+apt-get install -y vim build-essential cmake python-dev htop
 
 Rscript install.R
 
